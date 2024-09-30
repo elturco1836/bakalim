@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakalim Links</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #FD7F19, #FFD686);
+            background-size: 400% 400%;
+            animation: gradient 10s ease infinite;
+            flex-direction: column;
+        }
+
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.3);
+            padding: 20px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            width: 80%;
+        }
+
+        h1 {
+            font-size: 2em;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .link {
+            display: block;
+            margin: 15px 0;
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #333;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .link:hover {
+            background-color: #ff8c00;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bakalim Links</h1>
+        <a class="link" href="https://bakalim.de/app" target="_blank">Jetzt Herunterladen</a>
+        <a class="link" href="https://www.instagram.com/bakalim.de" target="_blank">Instagram</a>
+    </div>
+</body>
+</html>
+
